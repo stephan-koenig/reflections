@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff view marked the lines that differed between the two versions and
+    in this way narrowed down the potential locations of the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    A version history enables to roll back a file to a version that still works
+    or still contains a feature that was intentionally removed. In this way it
+    is easier to identify bugs or to restore deleted code thus saving time
+    and making me a more efficient programmer.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The advantage of manual commits is that each commit imposes meaning by the
+    user on each version of the file. The drawback is that the user has be
+    considerate when to do commits (i.e. commits are only as meaningful as the
+    intention of the user). Another disadvantage is that it is possible to forget
+    to do commits and changes might be lost due to a crash.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git assumes that there are interdependencies of files organized as a
+    repository (which is defined by the user), so it is important to track
+    multiple files in one commit. Google Docs assumes that there are no
+    meaningful interdependencies among seperate files thus saves all files
+    separately.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log provides a summary of all commits including their commit id and
+    message. In contrast, git diff shows the added or deleted lines between
+    to commits (indicated by their commit ids).
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By using git checkout it is possible to restore a working version of the
+    software with minimal effort; this encourages experimentation with code even
+    if new features might accidently break the program.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to use Git for all of my future programming projects so I have
+    for freedom to experiment with big changes to my programs, for specifically
+    for my first forays into Swift programming and continued Python practice.
