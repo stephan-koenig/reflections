@@ -47,4 +47,11 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When changes concern code that many other changes are interdependent on and
+    might also modify then conflicts are far more likely. In this case it is
+    more important to first merge changes into a separate branch. In this way
+    these changes are also more explicit with the pull request. The disadvantage
+    is increase in time needed to execute all the different pull/push and
+    commits and pull requests. Instead directly changing the master simplifies
+    the procedure to desseminate changes but features are not introduced as
+    explicitly and might be missed by collaborators.
