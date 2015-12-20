@@ -37,7 +37,12 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    The advantage would be that not all users have to have training in using
+    Git and GitHub, have Git locally installed, and create a GitHub account.
+    Instead, collaborators can just email each other the files, or use a file
+    exchange program like Dropbox. The drawbacks are that it is harder to track
+    versions, clearly label and exchange them, properly track multiple
+    interdependant files, and merge versions from two collaborators into one.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
